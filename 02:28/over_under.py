@@ -112,3 +112,4 @@ ax4.axes.yaxis.set_ticklabels([])
 ax4.grid(False)
 
 plt.savefig('over_under.pdf', format='pdf', bbox_inches='tight')
+plt.savefig('over_under.png', format='png', bbox_inches='tight')

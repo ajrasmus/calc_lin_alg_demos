@@ -61,5 +61,4 @@ ax.plot(curve_x, curve_y_bottom, color='black')
 
 plt.title('A contour plot for $f(x,y)=x+x^2-y^2$')
 plt.savefig('harmonic_contour.pdf', format='pdf', bbox_inches='tight')
-
-plt.show()
+plt.savefig('harmonic_contour.png', format='png', bbox_inches='tight')

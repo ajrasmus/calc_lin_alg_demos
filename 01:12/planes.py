@@ -33,5 +33,4 @@ for pt in P_through_point:
 ax.quiver(0, 0, 0, P[0], P[1], P[2], color='green')
 ax.view_init(azim=35, elev=10)
 plt.savefig('parametric_plane.pdf', format='pdf')
-
-plt.show()
+plt.savefig('parametric_plane.png', format='png')

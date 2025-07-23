@@ -138,3 +138,4 @@ Y = [x[1] for x in linear_combos]
 ax4.scatter(X, Y, color='black', s=20)
 
 plt.savefig('anosov_grid.pdf', format='pdf', bbox_inches='tight')
+plt.savefig('anosov_grid.png', format='png', bbox_inches='tight')

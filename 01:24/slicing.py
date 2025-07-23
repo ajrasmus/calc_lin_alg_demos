@@ -36,3 +36,4 @@ for arr in [[0], [-50, 0, 50], [-50, -25, 0, 25, 50]]:
 
     ax.plot_surface(X, Y, Z, alpha=0.3, linewidth=0.5, color='blue')
     plt.savefig(f'{len(arr)}_contours.pdf', format='pdf')
+    plt.savefig(f'{len(arr)}_contours.png', format='png')

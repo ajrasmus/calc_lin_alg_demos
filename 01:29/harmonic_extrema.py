@@ -40,3 +40,4 @@ ax.scatter(xs, ys, zs, color='red')
 
 plt.title('Extreme points of $f(x,y)=x+x^2-y^2$ on the unit disk')
 plt.savefig('harmonic_extrema.pdf', format='pdf')
+plt.savefig('harmonic_extrema.png', format='png')

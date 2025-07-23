@@ -65,3 +65,4 @@ e2 = patches.Ellipse((0, 0), 6, 4, angle=(180 / np.pi)
 ax2.add_patch(e2)
 
 plt.savefig('SVD.pdf', format='pdf', bbox_inches='tight')
+plt.savefig('SVD.png', format='png', bbox_inches='tight')

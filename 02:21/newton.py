@@ -52,4 +52,4 @@ for n in range(1, 5):
 
 fig.suptitle("Newton's method")
 plt.savefig('newton.pdf', format='pdf', bbox_inches='tight')
-plt.show()
+plt.savefig('newton.png', format='png', bbox_inches='tight')

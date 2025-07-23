@@ -38,3 +38,4 @@ ax.clabel(contour, contour.levels, inline=True, fmt=fmt)
 
 
 plt.savefig('grad_descent.pdf', format='pdf')
+plt.savefig('grad_descent.png', format='png')

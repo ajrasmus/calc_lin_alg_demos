@@ -62,3 +62,4 @@ ax4.imshow(post_process(output, means), cmap='gray')
 ax4.set_title('Principal components: 10')
 
 plt.savefig('compression_table.pdf', format='pdf', bbox_inches='tight')
+plt.savefig('compression_table.png', format='png', bbox_inches='tight')

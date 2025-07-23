@@ -71,8 +71,6 @@ X = [x[0] for x in linear_combos]
 Y = [x[1] for x in linear_combos]
 ax2.scatter(X, Y, color='black', s=20)
 
-#
-
 ax3.set_title(
     r'After applying $\begin{pmatrix} 2 & 1 \\ 1 & 2\end{pmatrix}^{-1}$')
 ax3.set_xlim(-3, 3)
@@ -137,4 +135,4 @@ Y = [x[1] for x in linear_combos]
 ax4.scatter(X, Y, color='black', s=20)
 
 plt.savefig('inverse.pdf', format='pdf', bbox_inches='tight')
-plt.show()
+plt.savefig('inverse.png', format='png', bbox_inches='tight')
